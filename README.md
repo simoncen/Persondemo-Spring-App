@@ -2,17 +2,17 @@
 Springboot + Postgresql Demo App
 
 ## Folder Structure
-###`src`:
+### `src`:
 - `main`
 - `test` (empty currently)
 
-###`src/main/resources`: 
+### `src/main/resources`: 
 - `db.migration`
     - SQL code to create table
 - `application.yml`
     - Configure the postgresql database
 
-###`src/main/java/com.example.demo`
+### `src/main/java/com.example.demo`
 - `DemoApplication` 
     - Main function
 - `datasource` 
@@ -39,6 +39,6 @@ Springboot + Postgresql Demo App
 - `api`
     - Contains controllers that handle incoming HTTP req and 
     delegate to the corresponding `dao`(postgres).
-###`pom.xml` 
+### `pom.xml` 
 - Building Maven-base java project and managing its
     dependencies.
