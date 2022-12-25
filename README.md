@@ -1,5 +1,5 @@
 # Persondemo-Spring-App
-Springboot + Postgresql Demo App
+Springboot + Postgresql + Docker Demo App
 
 ## Folder Structure
 ### `src`:
